@@ -8,42 +8,70 @@ The system retrieves relevant document chunks using embeddings and vector simila
 
 # Features
 PDF document upload
+
 Semantic search using embeddings
+
 Retrieval-Augmented Generation (RAG)
+
 FastAPI backend APIs
+
 Vector database integration
+
 Conversational AI workflow
+
 Context-aware responses
+
 Reduced hallucination using external knowledge retrieval
 
 # Tech Stack
 Component -	Technology
+
 Language -	Python
+
 Framework -	FastAPI
+
 LLM Framework -	LangChain
+
 Vector Database -	ChromaDB / FAISS
+
 Embeddings -	OpenAI Embeddings
+
 LLM -	GPT / Llama / Groq
+
 PDF Loader -	PyPDF
+
 Deployment -	Docker
 
 # Architecture
 1.User Query
+
 2.Embedding Generation
+
 3.Vector Similarity Search
+
 4.Retrieve Relevant Chunks
+
 5.Context Injection
+
 6.LLM Response Generation
 
 # Project Workflow
 1.Upload PDF documents
+
 2.Extract text from documents
+
 3.Split text into chunks
+
 4.Generate embeddings for chunks
+
 5.Store embeddings in vector database
+
 6.Convert user query into embeddings
+
 7.Retrieve most relevant chunks
+
 8.Send retrieved context to LLM
+
 9.Generate contextual answer
 
 # Why RAG?
@@ -53,8 +81,11 @@ RAG improves factual accuracy by retrieving external context dynamically before 
 
 # Benefits:
 Better factual accuracy
+
 Reduced hallucination
+
 Domain-specific knowledge support
+
 Real-time contextual retrieval
 
 # Installation
@@ -66,11 +97,17 @@ uvicorn app.main:app --reload
 
 # Future Enhancements
 Multi-document support
+
 AI agents and tool calling
+
 Conversational memory
+
 Hybrid search
+
 Streaming responses
+
 Authentication and RBAC
+
 Cloud deployment
 
 # Use Cases
@@ -86,13 +123,21 @@ Internal documentation assistant
 
 # Key Concepts Used
 Generative AI
+
 Retrieval-Augmented Generation (RAG)
+
 Embeddings
+
 Semantic Search
+
 Vector Databases
+
 Prompt Engineering
+
 NLP
+
 FastAPI APIs
+
 LangChain Pipelines
 
 # Author
