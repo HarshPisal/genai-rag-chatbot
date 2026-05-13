@@ -75,6 +75,7 @@ Cloud deployment
 
 # Use Cases
 Enterprise knowledge assistant
+
 HR policy chatbot
 Research assistant
 Customer support automation
