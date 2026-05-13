@@ -82,7 +82,7 @@ Internal documentation assistant
 
 # Key Concepts Used
 Generative AI
-RAG (Retrieval-Augmented Generation)
+Retrieval-Augmented Generation (RAG)
 Embeddings
 Semantic Search
 Vector Databases
