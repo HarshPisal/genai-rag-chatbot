@@ -77,8 +77,11 @@ Cloud deployment
 Enterprise knowledge assistant
 
 HR policy chatbot
+
 Research assistant
+
 Customer support automation
+
 Internal documentation assistant
 
 # Key Concepts Used
